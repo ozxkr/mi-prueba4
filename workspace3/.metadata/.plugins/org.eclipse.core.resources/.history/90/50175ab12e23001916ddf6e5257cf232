@@ -1,0 +1,6 @@
+package com.udemy.entity;
+
+
+public class Course {
+
+}

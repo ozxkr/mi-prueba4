@@ -1,0 +1,12 @@
+package com.udemy.entity;
+
+import javax.persistence.Table;
+
+import org.hibernate.annotations.Entity;
+
+@Entity
+@con
+@Table(name="course")
+public class Course {
+
+}

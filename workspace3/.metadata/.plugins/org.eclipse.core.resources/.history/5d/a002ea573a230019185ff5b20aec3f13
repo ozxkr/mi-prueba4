@@ -1,0 +1,19 @@
+ spring:
+  thymeleaf:
+   prefix: classpath:/templates/
+   enabled: true
+  datasource:
+    url: =jbc:mysql://localhost:3306/netgloo_blog?useSSL=false
+    username: root
+    password: rexlee33    
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.cfg.ImprovedNamingStrategy 
+      properties:
+       hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect   
+  jooq:
+    sql-dialect: DEFAULT   
